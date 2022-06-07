@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tora Market</title>
+    <link rel="icon" href="./assets/img/favicon.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body is-kuro>
+    <header class="kuro-header">
+        <a href="/" class="kuro-header-logo">
+            <img src="./assets/img/logo.png" class="kuro-header-logo">
+        </a>
+
+        <div id="kuro-header-mobile" toggle="none"></div>
+
+        <div 
+            class="_bs-bg-overlay" 
+            id="kuro-header-mobile-overlay" 
+            kuro-toggle="navbar-overlay" 
+            kuro-target="#kuro-header-mobile-toggler"
+        ></div>
+
+        <div class="_bs-m _bs-mr-auto" id="kuro-header-mobile-toggler">
+            <a href="" class="kuro-header-link">Trang chủ</a>
+            <a href="" class="kuro-header-link">Cửa hàng</a>
+            <a href="" class="kuro-header-link">Nạp thẻ</a>
+            <a href="" class="kuro-header-link">Tin tức</a>
+            <div class="only-mobile">
+                <a href="" class="kuro-header-link">Đăng nhập</a>
+                <a href="" class="kuro-header-link">Đăng ký</a>
+            </div>
+        </div>
+
+        <div class="_bs-m _bs-ml-auto">
+            <a href="" class="kuro-header-button" role="button">Đăng nhập</a>
+            <a href="" class="kuro-header-button" role="button">Đăng ký</a>
+        </div>
+
+        <button 
+            class="kuro-header-toggler" 
+            kuro-toggle="navbar" 
+            kuro-value-target="#kuro-header-mobile"
+            kuro-target="#kuro-header-mobile-toggler"
+            kuro-target-overlay="#kuro-header-mobile-overlay"
+            kuro-value-attribute="toggle"
+            is-active="active"
+            not-active="none"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <main class="kuro-content">
+        <div class="kuro-first-intro-content" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <h1 class="large kuro-first-intro-title">Welcome to Tora Market</h1>
+            <p class="kuro-first-intro-text">Nơi bán account game, dịch vụ uy tín tại Việt Nam.</p>
+        </div>
+
+        <div class="kuro-intro-content" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <h1 class="large kuro-intro-title">Về website</h1>
+
+            <div class="bs_flex-rows bs_justify-center">
+                <div class="kuro-bs_card">
+                    <div class="kuro-bs_card-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="kuro-bs_card-body">
+                        <h2 class="kuro-bs_card-title">Công nghệ</h2>
+                        <p class="kuro-bs_card-text">Hệ thống được vận hành tự động 24/24</p>
+                    </div>
+                </div>
+
+                <div class="kuro-bs_card">
+                    <div class="kuro-bs_card-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="kuro-bs_card-body">
+                        <h2 class="kuro-bs_card-title">Bảo mật</h2>
+                        <p class="kuro-bs_card-text">Chúng tôi cam kết sẽ bảo vệ thông tin người dùng 1 cách tốt nhất.</p>
+                    </div>
+                </div>
+
+                <div class="kuro-bs_card">
+                    <div class="kuro-bs_card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="kuro-bs_card-body">
+                        <h2 class="kuro-bs_card-title">Hỗ trợ</h2>
+                        <p class="kuro-bs_card-text">Đội ngũ hỗ trợ luôn lắng nghe ý khiến khách hàng để phát triển hệ thống.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="kuro-intro-content" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <h1 class="large kuro-intro-title">Các mặt hàng</h1>
+
+            <div class="bs_flex-rows bs_justify-center">
+                <div class="kuro-bs_card">
+                    <div class="kuro-bs_card-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <div class="kuro-bs_card-body">
+                        <h2 class="kuro-bs_card-title">Minecraft</h2>
+                        <p class="kuro-bs_card-text">Bán các loại account Minecraft bản quyền, key Minecraft,...</p>
+                        <div class="kuro-button-list">
+                            <a href="" class="kuro-button-link" role="button">Truy cập</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kuro-bs_card">
+                    <div class="kuro-bs_card-icon">
+                        <i class="fas fa-dice-d6"></i>
+                    </div>
+                    <div class="kuro-bs_card-body">
+                        <h2 class="kuro-bs_card-title">Roblox</h2>
+                        <p class="kuro-bs_card-text">Bán robux, acc game Roblox.</p>
+                        <div class="kuro-button-list">
+                            <a href="" class="kuro-button-link" role="button">Truy cập</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="kuro-intro-content" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <h1 class="large kuro-intro-title">Các dịch vụ</h1>
+
+            <div class="bs_flex-rows bs_justify-center">
+                <div class="kuro-bs_card">
+                    <div class="kuro-bs_card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="kuro-bs_card-body">
+                        <h2 class="kuro-bs_card-title">Cày thuê</h2>
+                        <p class="kuro-bs_card-text">Dịch vụ cày thuê game Roblox.</p>
+                        <div class="kuro-button-list">
+                            <a href="" class="kuro-button-link" role="button">Truy cập</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="kuro-intro-content" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <h1 class="large kuro-intro-title">Quản trị viên</h1>
+
+            <div class="bs_flex-rows bs_justify-center">
+                <div class="kuro-bs_card">
+                    <div class="kuro-bs_card-avatar" style="--data-image:url('https://cdn.discordapp.com/avatars/958608039487877180/a_4900cbbd39125a5fa99289ba547f798e.gif');"></div>
+                    <div class="kuro-bs_card-body">
+                        <h2 class="kuro-bs_card-title">Đoàn Minh</h2>
+                        <p class="kuro-bs_card-text"><i class="fas fa-crown" style="margin-right:0.25rem;"></i> Owner</p>
+                        <div class="kuro-button-list social">
+                            <a href="https://www.facebook.com/callme.miinz" class="kuro-button-link" role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://github.com/oMiraiKuriyama" class="kuro-button-link" role="button" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kuro-bs_card">
+                    <div class="kuro-bs_card-avatar" style="--data-image:url('https://yt3.ggpht.com/ktee0TAIYc0WpLJX-dzHSUgl3DrbYI4y-54UpqhsPYzZMHFQ-ke63PP08yK1T7HfHtLsdHy9GDM=s176-c-k-c0x00ffffff-no-rj');"></div>
+                    <div class="kuro-bs_card-body">
+                        <h2 class="kuro-bs_card-title">Đoàn Bảo</h2>
+                        <p class="kuro-bs_card-text"><i class="fas fa-code" style="margin-right:0.25rem;"></i> Developer</p>
+                        <div class="kuro-button-list social">
+                            <a href="https://www.facebook.com/Nankaji.Minato/" class="kuro-button-link" role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.youtube.com/channel/UCN8P_0MM7fbjpj_n1qnnoaQ" class="kuro-button-link" role="button" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://github.com/KuromiNakamoto" class="kuro-button-link" role="button" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://twitter.com/nankaji_minato" class="kuro-button-link" role="button" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="kuro-footer">
+        &copy; <span class="kurojs_fullyear"></span> - Tora Market. Design by Kuromi Nakamoto.
+    </footer>
+
+    <button class="kuro-scrollToTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
